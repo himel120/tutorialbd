@@ -4,21 +4,81 @@
 
 
 <body>
-	
+	<!-----------------Navigation bar coding start from here--------------------->
 	<section class="headmenu">
 		<div class="logo"><img src="images/tutorialbd.png"></div>
 		
 		<div class="menu">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="tutorials.html">Tutorials</a></li>
+				<li><a href="pages/contact.html">Contact</a></li>
+				<li><a href="pages/about.html">About</a></li>
+				<li><a href="pages/tutorials.html">Tutorials</a></li>
 			</ul>
 		
 		</div>
 	
 	</section>
+	
+	
+	
+	<!-----------------Navigation bar coding end here--------------------->
+	
+	
+	
+	
+	<!-----------------Slide show coding start from here--------------------->
+	
+	
+	
+	
+	
+	<section class="slideshow fade">
+		<div class="myslides fade"><img src="images/business card.jpg"/></div>
+		<div class="myslides fade"><img src="images/flyer 2 mockup.jpg"/></div>
+		<div class="myslides fade"><img src="images/business cards.jpg"/></div>
+		<div class="myslides fade"><img src="images/flyer 4 mockup copy.jpg"/></div>
+		<div class="myslides fade"><img src="images/Card 17 mockup.jpg"/></div>
+	
+	</section>
+	
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	</div>
+	  
+	<script>
+		var slideIndex =0 ;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("myslides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+			   slides[i].style.display = "none";  
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1}    
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 4000); // Change image every 2 seconds
+		}
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	<!--------------------Slide show coding end here-------------------->
 	
 	
 	

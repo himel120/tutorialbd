@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   padding:0;
@@ -12,7 +13,7 @@ body{
   background:black;
   height:120px;
   float:left;
-  
+  top:0;
 }
 .logo img{
   float:left;
@@ -52,7 +53,45 @@ body{
   transition-duration:1s;
   
 }
+.text{
+  margin:0 0 0 345;
+  
+}
+.slideshow{
+	width:1198px;
+	height:350px;
+	border:1px solid white;
+	position:relative;
+  float:left;
+  margin:2 0 2 -1;
+  animation:0.2s linear infinite;
+  
+	
+}
+.slideshow img{
+	width:1200px;
+	height:350px;
+	position:absolute;
+	
+}
 
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: none;
+  transition: background-color 0.6s ease;
+}
+.fade {
+  animation-name: fade;
+  animation-duration:4s;
+}
+@keyframes fade {
+  from {opacity: .0} 
+  to {opacity: 1}
+}
 
 .footer{
   width:1200px;
@@ -619,6 +658,214 @@ content:'\f00d';
 }
 
 
+
+
+
+/** profile**/
+.box-2{
+  width:300px;
+  height:1000px;
+  background:#68a9e7;
+  float:left;
+  margin:2 0 2 0;
+  
+}
+.box-3{
+  width:300px;
+  height:1000px;
+  background:whitesmoke;
+  float:left;
+  margin:2 0 2 0;
+  
+}
+.box-2 img{
+  width:240px;
+  height:200px;
+  margin:30 0 0 30;
+  
+}
+.box-2 p{
+  font-size:30px;
+  color:white;
+  font-weight:bold;
+  text-align:center;
+  margin:5 0 0 0;
+  
+}
+.description{
+  background:white;
+  height:40px;
+  width:230px;
+  margin:50 0 0 35;
+  text-align:center;
+  float:left;
+  
+}
+.description h1{
+  color:#68a9e7;
+  padding-top:4px;
+  
+}
+.description p{
+  width:250px;
+  height:;
+  color:white;
+  margin:20 0 0 -5;
+  float:left;
+  font-size:12px;
+  border:1px solid #68a9e7;
+  text-align:center;
+  
+}
+.contact-pro{
+  background:white;
+  height:40px;
+  width:230px;
+  margin:150 0 0 35;
+  text-align:center;
+  float:left;
+  
+  
+}
+.contact-pro h1{
+  color:#68a9e7;
+  padding:5px;
+  
+}
+.contact-pro h2{
+  margin:10 0 0 -120;
+  float:left;
+  
+}
+.contact-pro p{
+  font-size:13px;
+  float:left;
+  width:300px;
+  text-align:center;
+  
+  
+}
+.description2{
+  background:#68a9e7;
+  height:40px;
+  width:230px;
+  margin:50 0 0 35;
+  text-align:center;
+  float:left;
+  
+}
+.description2 h1{
+  color:white;
+  padding-top:4px;
+  
+}
+.description2 p{
+  width:250px;
+  height:;
+  color:black;
+  margin:20 0 0 -5;
+  float:left;
+  font-size:12px;
+  text-align:center;
+  
+}
+.contact-pro2{
+  background:#68a9e7;
+  height:40px;
+  width:230px;
+  margin:150 0 0 35;
+  text-align:center;
+  float:left;
+  
+  
+}
+.contact-pro2 h1{
+  color:white;
+  padding:5px;
+  
+}
+.contact-pro2 h2{
+  margin:10 0 0 -120;
+  float:left;
+  
+}
+.contact-pro2 p{
+  font-size:12px;
+  float:left;
+  width:250px;
+  text-align:center;
+  margin:15 0 0 -10;
+  
+  
+}
+.contact-pro1{
+  background:white;
+  height:40px;
+  width:230px;
+  margin:150 0 0 35;
+  text-align:center;
+  float:left;
+  
+  
+}
+.contact-pro1 h1{
+  color:#68a9e7;
+  padding:5px;
+  
+}
+.contact-pro1 h2{
+  margin:10 0 0 -120;
+  float:left;
+  
+}
+.contact-pro1 p{
+  font-size:12px;
+  float:left;
+  width:250px;
+  text-align:center;
+  margin:15 0 0 -10;
+  
+  
+}
+.container{
+  width:100%;
+  height:20px;
+  background:#0002;
+  margin:15 0 0 0;
+  
+}
+.container h4{
+  margin:-1 0 0 0;
+  float:right;
+  
+}
+.container p{
+  margin:-0 0 0 0;
+  float:left;
+  padding:3 0 0 0;
+  height:17px;
+  
+}
+.html p{
+  background:green;
+  width:80%;
+  
+}
+.css p{
+  width:80%;
+  background:green;
+  
+}
+.java p{
+  width:50%;
+  background:green;
+  
+}
+.php p{
+  width:30%;
+  background:red;
+  
+}
 
 
 
