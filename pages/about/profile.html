@@ -1,6 +1,7 @@
 <html>
-<head> <title>It's a personal website, which is about Himel Barua</title>  </head>
-<link href="../../style.css" type="text/css" rel="stylesheet"/>
+<head> <title>www.tutorialbd.gq</title>  </head>
+<link href="../../css/header-footer.css" type="text/css" rel="stylesheet"/>
+<link href="../../css/about/profile.css" type="text/css" rel="stylesheet"/>
 
 
 <body>
@@ -12,7 +13,7 @@
 			<ul>
 				<li><a href="../../index.html">Home</a></li>
 				<li><a href="../contact.html">Contact</a></li>
-				<li><a href="../about.html">About</a></li>
+				<li><a href="../about/profile.html" class="active">About</a></li>
 				<li><a href="../tutorials.html">Tutorials</a></li>
 			</ul>
 		
@@ -132,6 +133,20 @@
 	
 	
 	
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementsByClassName("headmenu").style.padding = "30px 10px";
+    document.getElementsByClassNames("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("headmenu").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+</script>
 
 
 

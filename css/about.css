@@ -1,0 +1,106 @@
+/**About**/
+
+
+
+
+.about{
+  width:1200px;
+  height:50em;
+  background:url(../images/card.jpg); 
+  background-attachment:fixed;
+   background-size:cover;
+  background-position:center center;
+  margin:2 0 2 0;
+  overflow:auto;
+  float:left;
+  
+}
+.sub-about{
+  width:1000px;
+  height:65em;
+  border:;
+  margin:0 0 0 170;
+  padding-top:15px;
+  
+}
+.sub-about h1{
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+  width:840px;
+  text-align:center;
+  background:black;
+  margin:0 0 0 17;
+  
+}
+  
+
+.card1{
+  width:220px;
+  height:291px;
+  float:left;
+  position:;
+  text-align:center;
+  background:#0009;
+  margin:50 0 0 50;
+  transition-duration:2s;
+  
+}
+.card1 img{
+  width:120px;
+  height:120px;
+  margin:20 0 0 0;
+  border-radius:50%;
+  
+}
+.card1 p{
+  text-align: center;
+  margin:20 0 0 0;
+  color:white;
+  width:220px;
+  height:80px;
+  font-size:30px;
+  font-style: bold;
+  
+}
+.card1:hover{
+  transform:scale(1.3);
+  background: black;
+   
+}
+.card1 h2{
+  color:white;
+  font-size:18px;
+  margin:-40 0 10 0;
+  
+}
+.card1 h3{
+  font-size:15px;
+  width:200px;
+  height:30px;
+  margin:0 0 0 10;
+  background:skyblue;
+  border-radius:5px;
+  padding-top:10px;
+  
+}
+.card1 h3:hover{
+  background:red;
+  color:black;
+  
+}
+.card1 a{
+  color:white;
+  text-decoration:none;
+  margin-top:px;
+  width:220px;
+  height:40px;
+  
+}
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+body{
+  width:1200px;
+  margin:0 auto;
+  margin-top:120px;
+}
+.margin{
+  width:1200px;
+  height:100%;
+  margin-top:120;
+  
+}
+.headmenu{
+  width:1200px;
+  background:black;
+  height:120px;
+  float:left;
+  top:0;
+  overflow:hidden;
+  position:fixed;
+  z-index:99;
+  transition:0.4s;
+  margin:0 0 0 0;
+}
+.logo{
+	font-size:35px;
+	transition:0.4s
+	
+}
+.logo img{
+  float:left;
+  width:400px;
+  height:190px;
+  margin:-18 0 0 -50;
+  
+  
+}
+.menu{
+  width:750px;
+  float:left;
+  
+  
+}
+.menu ul{
+  list-style:none;
+  float:right;
+  
+}
+.menu ul li{
+   margin:80 50 0 0;
+  float:left;
+  
+}
+.menu ul li a{
+  text-decoration: none;
+  padding:5px;
+  color:white;
+  transform:2s linear infinite;
+  float:right;
+   
+  
+}
+.menu ul li a:hover{
+  background:whitesmoke;
+  border-radius:6px;
+  color:black;
+  transition-duration:1s;
+  
+}
+.text{
+  margin:0 0 0 345;
+  
+}
+
+
+.menu li a.active{
+	background-color:whitesmoke;
+  border-radius:6px;
+  padding:5px;
+	cursor:pointer;
+  color:black;
+}
+
+
+
+
+
+
+
+/**footer**/
+
+.footer{
+  width:1200px;
+  height:80px;
+  background: black;
+  color:white;
+  text-align:;
+  margin:2 0 0 0;
+  overflow:hidden;
+}
+.footer p{
+  padding:20 0 0 20;
+  font-size:15px;
+  
+}
+@media screen and (max-width: 500px) {
+	.headmenu{
+		width:100%;
+		
+	}
+	.logo img{
+  float:left;
+  width:200px;
+  height:140px;
+  margin:0 0 0 -50;
+  
+  
+}
+.menu{
+float:right;
+	
+}
+}
+
+
+
+
+
+
+
+
