@@ -1,85 +1,61 @@
 <html>
-<head> <title>It's a personal website, which is about Himel Barua</title>  </head>
+<head> <title>www.tutorialbd.gq</title>  </head>
 <link href="style.css" type="text/css" rel="stylesheet"/>
 <link href="css/header-footer.css" type="text/css" rel="stylesheet"/>
+<link href="css/common.css" type="text/css" rel="stylesheet"/>
+<link href="css/float-option.css" type="text/css" rel="stylesheet"/>
 
 
 <body>
 	<!-----------------Navigation bar coding start from here--------------------->
 	<section class="headmenu">
-		<div class="logo"><img src="images/tutorialbd.png"></div>
-		
-		<div class="menu">
-			<ul>
-				<li><a href="index.html" class="active">Home</a></li>
-				<li><a href="pages/contact.html">Contact</a></li>
-				<li><a href="pages/about/profile.html">About</a></li>
-				<li><a href="pages/tutorials.html">Tutorials</a></li>
-			</ul>
+		<div class="center">
+			<div class="logo"><img src="images/tutorialbd.png"></div>
+			
+			<div class="menu">
+				<ul>
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="pages/portfolio.html">Portfolio</a></li>
+					<li><a href="pages/about/profile.html">About</a></li>
+					<li><a href="pages/tutorials.html">Tutorials</a></li>
+				</ul>
+			</div>
 		
 		</div>
 	
 	</section>
 	
 	
+
+
+
+	<section class="display margin1">
+
+		<div class="msg-body">
+			<h1>Do you want to hire me??</h1>
+			<p>Find me through these links.........</p>
+			<ul>
+				<li> <a href="">www.freelancer.com</a></li>
+				<li> <a href="">www.fiverr.com</a></li>
+			</ul>
+			
+		</div>
+	</section>
+
+
+
 	
 	<!-----------------Navigation bar coding end here--------------------->
 	
 	
+	<!------------------------------------- portfolio section start from here----------------------------------->
+
+
+
 	
-	
-	<!-----------------Slide show coding start from here--------------------->
-	
-	
-	
-	
-	
-	<section class="slideshow fade">
-		<div class="myslides fade"><img src="images/business card.jpg"/></div>
-		<div class="myslides fade"><img src="images/flyer 2 mockup.jpg"/></div>
-		<div class="myslides fade"><img src="images/business cards.jpg"/></div>
-		<div class="myslides fade"><img src="images/flyer 4 mockup copy.jpg"/></div>
-		<div class="myslides fade"><img src="images/Card 17 mockup.jpg"/></div>
-	
+	<section class="wraper">
 	</section>
 	
-	<div style="text-align:center">
-	  <span class="dot"></span> 
-	  <span class="dot"></span> 
-	  <span class="dot"></span> 
-	  <span class="dot"></span> 
-	  <span class="dot"></span> 
-	</div>
-	  
-	<script>
-		var slideIndex =0 ;
-		showSlides();
-
-		function showSlides() {
-			var i;
-			var slides = document.getElementsByClassName("myslides");
-			var dots = document.getElementsByClassName("dot");
-			for (i = 0; i < slides.length; i++) {
-			   slides[i].style.display = "none";  
-			}
-			slideIndex++;
-			if (slideIndex > slides.length) {slideIndex = 1}    
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" active", "");
-			}
-			slides[slideIndex-1].style.display = "block";  
-			dots[slideIndex-1].className += " active";
-			setTimeout(showSlides, 4000); // Change image every 2 seconds
-		}
-	</script>
-	
-	
-	
-	
-	
-	
-	
-	<!--------------------Slide show coding end here-------------------->
 	
 	
 	
