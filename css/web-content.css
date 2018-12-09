@@ -1,0 +1,102 @@
+.margin{
+  margin:250 0 0 0;
+  
+}
+.margin1{
+  margin:250 0 0 0;
+  
+}
+.box2{
+  width:1200px;
+  height:42em;
+  margin:0 auto;
+  text-align: center;
+  margin-top:-45px;
+  overflow: auto;
+  
+}
+
+.card-show{
+  width:250px;
+  height:200px;
+  margin:0 auto;
+  margin-top:40px;
+  margin-left:40px;
+  position: relative;
+  transition-duration:1s;
+  border:1px solid #cdcdcd;
+  float:left;
+  text-align: center;
+}
+.float-left{
+  float:left;
+  
+}
+.card-show img{
+  width:230px;
+  height:178px;
+  margin:10 auto;
+  border:1px solid #0002;
+  border-radius:8px;
+  
+}
+.card-show:hover{
+  transform:scale(1.2);
+  
+}
+.card-show li {
+  position: absolute; 
+  bottom: 0; 
+  background: #cdcdcd;
+  color: #cdcdcd; 
+  transition: .5s ease;
+  opacity:1;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  list-style: none;
+  display:none;
+  width:210px;
+  height:40px;
+  margin:0 0 4 20;
+}
+
+.card-show:hover li{
+  transform:scale(1.2);
+  display: block;
+  
+}
+.full-length{
+  width:1200px;
+  margin:0 auto;
+  margin-top:10px;
+  
+}
+.bar-1{
+    border-bottom:1px solid #92dd03;
+    padding-bottom:3px;
+    width:1030px;
+    margin:0 auto;
+    
+}
+.bar-2{
+    width:1000px;
+    border-top:1px solid #92dd03;
+    padding-top:30px;
+    padding-bottom:50px;
+    margin:0 auto;
+    margin-top:3px;
+    
+}
+.full-length h3{
+  width:1000px;
+  height:120px;
+  border-bottom:1px solid #92dd03;
+  margin:0 auto;
+  padding-bottom:25px;
+  padding-top:0px;
+  font-size:70px;
+  margin-top:160px;
+    font-family:Flaemische Kanzleischrift;
+  
+}

@@ -1,10 +1,14 @@
 /**illustration**/
-
+.margin{
+	margin:250 0 0 0;
+	
+}
 .box{
   width:1198px;
   height:479px;
   position: relative;
-  margin:-20 0 0 0;
+  margin:2 auto;
+	margin-top:150px;
   
 }
 .video1{
@@ -185,7 +189,6 @@ content:'\f00d';
   height:50px;
   
 }
-
 
 
 
