@@ -1,0 +1,130 @@
+<html>
+<head> <title> www.tutorialbd.gq   </title>      </head>
+<style>
+	
+  *{
+  margin:0 auto;
+  padding: 0;
+  
+}
+body{
+  width:1200px;
+  height:1000px;
+  background:#cdcdcd;
+}
+.container{
+  margin:0;
+  padding-left:20px;
+  width:0px;
+  height:100%;
+  background:black;
+  position:fixed;
+  transition-duration:1s;
+  z-index: 99;
+  overflow: hidden;
+  top:0;
+
+}
+.container:hover{
+  display:block;
+  width:248px;
+  height:100%;
+  border-right:5px solid black;
+  background:#0008;
+  padding-left:0;
+  
+}
+.sub-container{
+  width:250px;
+  height:100%;
+  transition-duration: 1s;
+
+}
+.logo{
+  width:250px;
+  height:70px;
+  text-align: center;
+  margin:0 auto;
+  background:black;
+  color:white;
+
+}
+.logo p{
+  font-size:30px;
+  padding-top:10px;
+
+}
+.sub-container ul{
+
+}
+.sub-container ul li{
+text-decoration:none;
+  list-style: none;
+  width:235px;
+  height:45px;
+  background:blue;
+  border-bottom:1px solid #0008;
+  font-size:25px;
+  margin-top:2px;
+  padding-left:15px;
+  padding-top:8px;
+
+}
+.sub-container ul li a{
+  text-decoration: none;
+  color:white;
+  
+}
+.sub-container ul li:hover{
+  background:#0008;
+  
+}
+.box{
+  width:1200px;
+  height:100%;
+  margin:0 auto;
+  margin-left:40px;
+  margin-top:300px;
+  text-align: center;
+  font-size:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+<body>
+	<section class="container">
+		<div class="sub-container">
+			<div class="logo">
+				<p>Company Name</p>
+			</div>
+
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Product</a></li>
+			</ul>
+		</div>
+	</section>
+
+  <section class="box">
+      <p>To see the sidebar,hover your pointer in black line.</p>
+  </section>  
+</body>
+<footer></footer>
+</html>

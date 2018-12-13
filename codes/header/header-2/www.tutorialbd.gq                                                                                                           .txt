@@ -1,0 +1,91 @@
+<html>
+<head>           </head>
+<style>
+*{
+  margin:0 auto;
+  padding: 0;
+  
+}
+body{
+  width:1200px;
+  height:1000px;
+}
+.nav-bar-container{
+	width:1200px;
+	height:100px;
+	background:#0008;
+	position:fixed;
+	top:0;
+	
+}
+.logo{
+	width:300px;
+	height:90px;
+	float:left;
+	text-align: center;
+	margin:0 auto;
+	margin-top:4px;
+	color:#cdcdcd;
+  
+}
+.logo p{
+	width:300px;
+	height:90px;
+	font-size:50px;
+	text-align:center ;
+	margin-top:10px;
+	
+}
+.nav-bar-content{
+	width:900px;
+	height:90px;
+	float:left;
+	
+}
+.nav-bar-content ul{
+	float:right;
+	margin-top:55px;
+	
+}
+.nav-bar-content ul li{
+	list-style: none;
+	float:left;
+	margin-right:50px;
+	width:80px;
+	height:25px;
+	padding-top:5px;
+	background:#cdcdcd;
+	text-align: center;
+	
+}
+.nav-bar-content ul li a{
+	text-decoration:none;
+	color:black;
+	
+}
+.nav-bar-content ul li:hover{
+	opacity: 0.5;
+	
+	
+}
+
+
+
+</style>
+
+<body>
+	<div class="nav-bar-container">
+		<div class="logo">
+			<p>Your Logo</p>
+		</div>
+		<div class="nav-bar-content">
+			<ul>
+				<li><a href="">Menu</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Portfolio</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+<footer></footer>
+</html>

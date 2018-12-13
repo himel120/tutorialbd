@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.tutorialbd.gq</title>
+</head>
+<style>
+	*{
+  margin:0 auto;
+  padding: 0;
+  
+}
+.container{
+  margin:0 auto;
+  text-align:center;
+  margin-top:100px;
+  
+}
+.container img{
+  width:400px;
+  height:300px;
+  border:1px solid black;
+  margin:0 auto;
+  transition-duration: 1s;
+  opacity:0.5
+    
+}
+.container img:hover{
+  opacity:1;
+  
+}
+
+</style>
+<body>
+	<section class="container">
+		<img src="opacity.png">
+	</section>
+
+</body>
+</html>

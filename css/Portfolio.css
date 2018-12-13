@@ -242,7 +242,9 @@
     margin-top:50px;
     margin-left:0;
     display: block;
-    width:1200px;
+    width:1000px;
+    opacity:;
+    
 }
 
 /* Caption of Modal Image */
@@ -251,11 +253,17 @@
     display: block;
     text-align: center;
     color: #ccc;
-    padding: 10px 0;
-    height: 150px;
+    padding-top:0px;
+    width: 1000px;
     font-size: 3pc;
+    margin-top:;
+    background:#0008;
+    opacity:1;
 }
-
+.water-mark{
+    
+    
+}
 /* Add Animation */
 .modal-content, #caption {    
     -webkit-animation-name: zoom;
