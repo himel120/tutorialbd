@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'himelbarua73@gmail.com';
 
 
 if($_POST) {
@@ -12,8 +12,8 @@ if($_POST) {
    $contact_message = trim(stripslashes($_POST['contactMessage']));
 
    // Check Name
-	if (strlen($name) < 2) {
-		$error['name'] = "Please enter your name.";
+	if (strlen($name) < 3) {
+		$error['name'] = "Your name is too short.";
 	}
 	// Check Email
 	if (!preg_match('/^[a-z0-9&\'\.\-_\+]+@[a-z0-9\-]+\.([a-z0-9\-]+\.)*+[a-z]{2}/is', $email)) {
